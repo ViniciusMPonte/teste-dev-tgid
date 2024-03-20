@@ -50,6 +50,10 @@ O retorno pode assumir diferentes valores dependendo das condições de execuç�
 
 O banco de dados H2 possui duas tabelas principais: `tb_client` e `tb_company`, que armazenam informações sobre clientes e empresas, respectivamente. Além disso, há uma tabela de relacionamento `tb_client_company` que associa clientes a empresas, indicando quais empresas cada cliente está vinculado.
 
+![tb_company](https://raw.githubusercontent.com/ViniciusMPonte/teste-dev-tgid/main/imgs/tb_company.PNG)
+![tb_client](https://raw.githubusercontent.com/ViniciusMPonte/teste-dev-tgid/main/imgs/tb_client.PNG)
+![tb_client_company](https://raw.githubusercontent.com/ViniciusMPonte/teste-dev-tgid/main/imgs/tb_client_company.PNG)
+
 # Taxas de Sistema
 
 Cada empresa na tabela `tb_company` possui informações sobre seu saldo atual e suas taxas de saque e depósito. Ao realizar uma transação, o sistema aplica essas taxas de acordo com o tipo de transação.
